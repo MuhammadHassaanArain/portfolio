@@ -19,6 +19,9 @@
   font-family: cursive;
   cursor: pointer;
 }
+.container > .h2 > h2:hover{
+  transform: scale(1.4);
+}
 
 .container > .h3 > h3 {
   text-align: center;
@@ -44,6 +47,7 @@
   background: #bcfd4c;
   text-decoration: none;
 }
+
 
 /* working on home section */
 
@@ -78,7 +82,9 @@
   font-family: cursive;
   cursor: pointer;
 }
-
+.home > .hometext > h1:hover{
+  transform: scale(1.1);
+}
 .home > .hometext > p {
   color: #2b2b2b;
   padding-top: 40px;
@@ -92,9 +98,12 @@
   width: auto;
   border-radius: 10%;
   margin-left: 140px;
+  border: 2px solid  #545454;
   /* background: #F5F5F5; */
 }
-
+.home > .pic > img:hover{
+  transform: scale(1.1);
+}
 .home > .pic {
   background: #f5f5f5;
 }
@@ -130,6 +139,9 @@
   text-align: center;
   margin-right: 800px;
   cursor: pointer;
+}
+.abouttext > h1:hover{
+  transform: scale(1.1);
 }
 
 .abouttext > p {
@@ -195,7 +207,9 @@
   font-family: cursive;
   margin-right: 855px;
 }
-
+.skillstext > h1:hover{
+  transform: scale(1.1);
+}
 /* working on project */
 .project {
   height: 390px;
@@ -226,7 +240,9 @@
   margin-right: 800px;
   cursor: pointer;
 }
-
+.projecttext > h1:hover{
+  transform: scale(1.1);
+}
 .span {
   color: #bcfd4c;
 }
@@ -266,7 +282,9 @@
   margin-bottom: 37px;
   cursor: pointer;
 }
-
+.contact > .contacttext > h1:hover{
+  transform: scale(1.1);
+}
 .contact > .contacttext {
   width: 87%;
   height: 200px;
@@ -281,7 +299,7 @@
   margin-right: 14px;
   margin-top: 20px;
 }
-
+.contact > .contacttext > a > i:hover{transform: scale(1.4);}
 .contact > .contacttext > a {
   font-size: 40px;
   background: #f5fcf5;
@@ -322,50 +340,50 @@ footer > p > i {
 }
 
 
-/* adding responsiveness */
 
 
+
+/* adding responsiveness  */
 
 
 @media screen and (max-width: 700px){
   
 
-.home {
-  height: 720px;
-  
-}
-.home > .pic > img{
-  height: 170px;
-  width: 180px;
-  margin-left: -230px;
-}
-.home > .pic{
-  height: 100px;
-  width: 140px;
-}
-.home > .hometext{
-  margin-top: 100px;
-}
-.home > .hometext > h1{
-  width: 270px;
-  margin-left: -80px;
-  margin-top: 90px;
-}
-.home > .hometext > p{
-  width: 180px;
-margin-left: -30px;
-}
-.about{
-  height: 700px;
-}
-.skills{
-  height: 430px;
-}
-.project{
-  height: 800px;
-}
-.contact{
-  height: 330px;
-}
-
-}
+  .home {
+    height: 720px;
+    
+  }
+  .home > .pic > img{
+    height: 170px;
+    width: 180px;
+    margin-left: -230px;
+  }
+  .home > .pic{
+    height: 100px;
+    width: 140px;
+  }
+  .home > .hometext{
+    margin-top: 100px;
+  }
+  .home > .hometext > h1{
+    width: 270px;
+    margin-left: -80px;
+    margin-top: 90px;
+  }
+  .home > .hometext > p{
+    width: 180px;
+  margin-left: -30px;
+  }
+  .about{
+    height: 700px;
+  }
+  .skills{
+    height: 430px;
+  }
+  .project{
+    height: 800px;
+  }
+  .contact{
+    height: 330px;
+  }
+  }
